@@ -28,7 +28,7 @@ public class TrapesiumMain {
         for (Trapesium trr : tr ){
             double luas = trr.Luas();
             double kel = trr.keliling();
-            System.out.println("Luas Trapesium: " + luas + "||" + "Keliling Trapesium: " + kel) ;
+            System.out.println("Luas Trapesium: " + luas + "\n" + "Keliling Trapesium: " + kel) ;
 
         }
         System.out.println("=====================================================================");
