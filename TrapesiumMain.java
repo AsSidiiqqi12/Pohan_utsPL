@@ -27,7 +27,8 @@ public class TrapesiumMain {
         }
         for (Trapesium trr : tr ){
             double luas = trr.Luas();
-            System.out.println("Luas Trapesium: " + luas);
+            double kel = trr.keliling();
+            System.out.println("Luas Trapesium: " + luas + "||" + "Keliling Trapesium: " + kel) ;
 
         }
         System.out.println("=====================================================================");
@@ -35,6 +36,7 @@ public class TrapesiumMain {
         int jumlah = 0;
         for (Trapesium trp : tr){
             double luas = trp.Luas();
+            // tambahkan kondisi sesuai soal
             if (luas > 5000){
                 System.out.println("Luas Trapesium: " + luas);
                 jumlah++;
